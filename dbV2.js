@@ -69,7 +69,7 @@ app.post('/auth/aluno', async (req,res) => {
 
 })
 
-app.listen(process.env.PORT || port, () => {
+app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 });
 
