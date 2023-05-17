@@ -1,1 +1,1 @@
-web:gunicorn dbV2.js npm start
+web: npm start
