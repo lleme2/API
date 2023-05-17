@@ -5,7 +5,7 @@
   "main": "dbV2.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": " src/db.js"
+    "start": " node dbV2.js"
   },
   "keywords": [],
   "author": "",
