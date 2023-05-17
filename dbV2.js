@@ -16,6 +16,10 @@ app.use(express.json());
 const port = 3000;
 
 
+app.get('/', async (req,res) => {
+  res.send("deu certo")
+})
+
 app.post('/signin', async (req, res) => {
     console.log(req.body);
     const dados = req.body;
