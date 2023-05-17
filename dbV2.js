@@ -2,7 +2,7 @@ const { MongoClient } = require("mongodb");
 const uri = "mongodb://mongo:kLE9591apUXPdGLyayMu@containers-us-west-44.railway.app:7658/";
 const client = new MongoClient(uri);
 require("dotenv").config();
-const database = client.db('teste');
+const database = client.db('test');
 const user = database.collection('users');
 
 
